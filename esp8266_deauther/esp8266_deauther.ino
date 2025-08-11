@@ -115,7 +115,7 @@ void setup() {
     if (settings::getDisplaySettings().enabled) {
         displayUI.setup();
         displayUI.setClockFont();
-        displayUI.mode = DISPLAY_MODE::CLOCK;
+        displayUI.mode = DISPLAY_MODE::CLOCK_DISPLAY;
     }
 
     // load everything else
